@@ -4,7 +4,7 @@
   "description": "a2/lab",
   "main": "landing.html",
   "scripts": {
-    "serve":  "browser-sync start --server --startPath landing.html",
+    "serve":  "browser-sync start --server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
