@@ -1,0 +1,64 @@
+Country,Population,no_Starbucks,Starbucks_per_million_inhabitants,Continent
+United States,316128839,11851,37.49,North America
+China,1357380000,1462,1.08,Asia
+Canada,35158304,1425,40.53,North America
+Japan,127338621,1052,8.26,Asia
+United Kingdom,64097085,770,12.01,Europe
+"Korea, Rep.",50219669,684,13.62,Asia
+Mexico,122332399,423,3.46,North America
+Taiwan,23340000,316,13.54,Asia
+Philippines,98393574,234,2.38,Asia
+Turkey,74932641,213,2.84,Asia
+Thailand,67010502,204,3.04,Asia
+Malaysia,29716965,172,5.79,Asia
+Indonesia,249865631,168,0.67,Asia
+Germany,80621788,159,1.97,Europe
+United Arab Emirates,9346129,106,11.34,Asia
+Singapore,5399200,106,19.63,Asia
+France,66028467,101,1.53,Europe
+Brazil,200361925,85,0.42,South America
+Russian Federation,143499861,85,0.59,Europe
+Spain,46647421,84,1.80,Europe
+Argentina,41446246,73,1.76,South America
+Peru,30375603,73,2.40,South America
+Kuwait,3368572,70,20.78,Asia
+Saudi Arabia,28828870,65,2.25,Asia
+Chile,17619708,60,3.41,South America
+Switzerland,8081482,59,7.30,Europe
+India,1252139596,53,0.04,Asia
+Netherlands,16804224,45,2.68,Europe
+Ireland,4595281,40,8.70,Europe
+Poland,38530725,37,0.96,Europe
+Greece,11032328,30,2.72,Europe
+New Zealand,4470800,26,5.82,Oceania
+Australia,23130900,24,1.04,Oceania
+"Egypt, Arab Rep.",82056378,23,0.28,Africa
+Puerto Rico,3615086,21,5.81,North America
+Lebanon,4467390,20,4.48,Asia
+Czech Republic,10521468,18,1.71,Europe
+Austria,8473786,17,2.01,Europe
+Bahrain,1332171,17,12.76,Asia
+Belgium,11195138,14,1.25,Europe
+Qatar,2168673,13,5.99,Asia
+Denmark,5613706,12,2.14,Europe
+Norway,5084190,11,2.16,Europe
+Vietnam,89708900,11,0.12,Asia
+Romania,19963581,10,0.50,Europe
+Jordan,6459000,10,1.55,Asia
+Cyprus,1141166,9,7.89,Europe
+Hungary,9897247,9,0.91,Europe
+"Bahamas, The",377374,9,23.85,North America
+Portugal,10459806,8,0.76,Europe
+"Hong Kong SAR, China",7187500,8,1.11,Asia
+Sweden,9592552,6,0.63,Europe
+Oman,3632444,6,1.65,Asia
+Morocco,33008150,5,0.15,Africa
+Bulgaria,7265115,5,0.69,Europe
+El Salvador,6340454,5,0.79,North America
+Guatemala,15468203,4,0.26,North America
+Costa Rica,4872166,4,0.82,North America
+Aruba,102911,3,29.15,North America
+Finland,5439407,3,0.55,Europe
+Colombia,48321405,2,0.04,South America
+Netherland Antilles,227049,2,8.81,North America
+Monaco,37831,1,26.43,Europe

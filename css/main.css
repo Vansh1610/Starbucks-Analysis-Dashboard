@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+body{
+
+    background-color: #006439;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-container,.scatter-container,#map-container{
+
+    width:60%;
+    background-color: white;
+    padding:3rem;
+    margin:3rem auto;
+    align-items: center;
+    border-radius: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.text-container{
+
+    background-color: #006439;
+    padding:3rem;
+    color:white;
+    font-size: 1.4rem;
+    line-height: 1.5em;
+    width:75%;
+    border-radius:1rem;
+    margin:2rem auto;
+    text-align: center;
+    overflow-x: auto;
+}
+
+svg{
+    margin-top: 3rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    align-items: center;
+}
+
+.nav-bar {
+    display: flex;
+    width: fit-content;
+    padding: 1rem;
+    color: #006439;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.nav-button {
+    padding: 0.8rem 1.2rem;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #006439;
+    font-size: 14px;
+}
+
+.dashboard-home {
+    background-color: #922cf8;
+    color: #ffffff; 
+}
+
+.nav-button:hover {
+    background-color: #d4d4d4;
+}
+
+.hero__title{
+    font-family: 'Caveat', cursive;
+    font-size: 4rem;
+    margin-top: 6rem;
+    margin-bottom: .1em;
+    color:white;
+    text-align: center;
+  }
+
+
+.legend {
+    font-size: 12px;
+}
+
+.legend rect {
+    width: 20px;
+    height: 40px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.legend-rect text {
+    font-size: 10px; 
+}
+
+.tooltip {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 5px;
+    display: none;
+    color:black;
+}

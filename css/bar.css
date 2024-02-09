@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Poppins:wght@400;500;600&display=swap');
+body{
+
+background-color: #006439;
+font-family: 'Poppins', sans-serif;
+}
+
+#bar_charts_2{
+
+    margin-top:3rem
+}
+
+svg {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding:2rem
+}
+
+text {
+    font-family: Arial, sans-serif;
+
+}
+
+
+.scatter-container {
+    width:60%;
+    background-color: white;
+    padding:3rem;
+    margin:3rem auto;
+    align-items: center;
+    border-radius: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: auto;
+    padding-top:4rem
+    
+}
+
+.text-container{
+
+    background-color: #006439;
+    padding:3rem;
+    color:white;
+    font-size: 1.4rem;
+    line-height: 1.5em;
+    width:75%;
+    border-radius:1rem;
+    margin:2rem auto;
+    text-align: center;
+    overflow-x: auto;
+}
+
+
+.nav-bar {
+display: flex;
+width: fit-content;
+padding: 1rem;
+color: #006439;
+font-weight: bold;
+font-size: 15px;
+margin: 0 auto;
+gap: 1rem;
+}
+
+.nav-button {
+padding: 0.8rem 1.2rem;
+background-color: white;
+border-radius: 5px;
+text-decoration: none;
+color: #006439;
+font-size: 14px;
+}
+
+.dashboard-home {
+background-color: #922cf8; 
+color: #ffffff; 
+}
+
+.nav-button:hover {
+background-color: #d4d4d4;
+}
+
+.hero__title{
+font-family: 'Caveat', cursive;
+font-size: 4rem;
+margin-top: 6rem;
+margin-bottom: .1em;
+color:white;
+text-align: center;
+}

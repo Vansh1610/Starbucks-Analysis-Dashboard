@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+
+
+    <link rel="stylesheet" href="landing.css">
+
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+  <div class="hero">
+
+    <header class="nav">
+      <div class="nav__logo">
+        <a href="#"><img src="/images/starbucks-logo.png" alt="logo"></a>
+      </div>
+
+      <nav>
+        <ul class="nav__links">
+          <li class="nav__link"><a style='text-decoration:underline' href="https://data.world/alice-c/starbucks">Data</a></li>
+          <li class="nav__link nav__link--findstore">
+            <a href="/Mapbox/cali.html">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Find A Store</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="hero__content">
+      <div class="hero__texts">
+        <h2 class="hero__title">Starbucks Analysis!</h2>
+        <p class="hero__paragraph">Welcome to the Starbucks Analysis, where we delve into the rich data surrounding Starbucks locations worldwide. Whether you're a coffee enthusiast, business strategist, or data aficionado, this analysis is designed to offer a visually engaging and informative experience.</p>
+        <p class="hero_hover"> Hover and Select a brewing cup of Analysis !!</p>
+      
+      </div>
+
+      <div class="hero__image"><img src="/images/frappuccino.png" alt="Frappuccino"></div>
+      <div class="hero_paragraph_1" style="display: none;"></div>
+
+      <div class="hero__frappuccinos">
+        <div class="hero__frappuccino hero__frappuccino--pink2"><a href="html/bar.html"><img class="g_1.png" src="/images/frappuccino-pink2.png" alt="frappuccino"></a></div>
+        <div class="hero__frappuccino hero__frappuccino--red"><a href="html/graph_1.html"><img class="g_2.png" src="/images/frappuccino-red.png" alt="frappuccino"></a></div>
+        <div class="hero__frappuccino hero__frappuccino--green3"><a href="html/prop_sym.html"><img class="g_3.png" src="/images/frappuccino-green3.png" alt="frappuccino"></a></div>
+        <div class="hero__frappuccino hero__frappuccino--pink"><a href="html/income.html"><img class="g_4.png" src="/images/frappuccino-pink.png" alt="frappuccino"></a></div>
+        <div class="hero__frappuccino hero__frappuccino--green5"><a href="html/other.html"><img class="g_5.png" src="/images/frappuccino-green5.png" alt="frappuccino"></a></div>
+    </div>
+    </div>
+  </div>
+
+    <style>
+      
+  
+  
+        .hero__image img {
+        opacity: 1;
+      }
+
+      .hero__image img.hovered {
+        transform: rotate(0deg);
+        opacity: 1;
+      }
+      </style>
+      <script>
+  
+        document.addEventListener("DOMContentLoaded", function() {
+
+          textdict={
+
+            'g_1.png':'Starbucks Top 5 and Bottom 5 Countries',
+            'g_2.png':'Population Density Vs Number of Stores',
+            'g_3.png':'Number of Stores in California',
+            'g_4.png':'Median Income relative to Number of Stores in California',
+            'g_5.png':"Starbucks and Local Coffee shops in Los Angeles"
+
+          }
+          const heroImage = document.querySelector(".hero__image img");
+          const herotext=document.querySelector(".hero_paragraph_1");
+          const frappuccinoImages = document.querySelectorAll(".hero__frappuccino img");
+          
+   
+          heroImage.src = "/images/frappuccino.png";
+  
+          frappuccinoImages.forEach(frappuccino => {
+            frappuccino.addEventListener("mouseover", function() {
+           
+              heroImage.src = '/graph/'+frappuccino.classList[0]
+              heroImage.classList.add("hovered");
+              herotext.textContent=textdict[frappuccino.classList[0]]
+              herotext.style.display="block"
+              
+            });
+
+
+  
+  
+            frappuccino.addEventListener("mouseout", function() {
+           
+              heroImage.src = "/images/frappuccino.png";
+              heroImage.classList.remove("hovered");
+              herotext.textContent=''
+              herotext.style.display="none"
+            });
+          });
+        });
+      </script>
+
+</body>
+</html>

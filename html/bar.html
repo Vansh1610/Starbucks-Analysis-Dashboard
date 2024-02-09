@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Country Performance</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <link rel="stylesheet" href="../css/bar.css" type="text/css"></link>
+
+</head>
+
+<body>
+
+    <div class="nav-bar">
+        <a href="../landing.html" class="nav-button dashboard-home">Home</a>
+        <a href="bar.html" class="nav-button">Continent / Country Level Performance</a>
+        <a href="graph_1.html" class="nav-button">Population Density and Starbucks</a>
+        <a href="prop_sym.html" class="nav-button">Starbucks Distribution in California</a>
+        <a href="income.html" class="nav-button">Median Income and Starbucks</a>
+        <a href="other.html" class="nav-button">Other stores and Starbucks</a>
+      </div>
+    
+      <h2 class="hero__title">Starbucks Top 5 and Bottom 5 Countries</h2>
+
+        <div class="scatter-container">
+
+        <svg id='bar_charts_1' width="900" height="600"></svg>
+
+        <svg id='bar_charts_2' width="900" height="600"></svg>
+    
+        <div class="text-container" style="text-align:center">
+
+            This is a bar chart that shows the top 5 countries and the bottom 5 countries according to the number of Starbucks stores globally.
+        </div>
+
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
+    <script src="../js/bar_charts_top5.js"></script>
+    <script src="../js/bar_charts_bottom5.js"></script>
+    </div>
+
+</body>
+
+</html>
